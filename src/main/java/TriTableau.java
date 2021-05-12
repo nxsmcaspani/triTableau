@@ -57,23 +57,7 @@ public class TriTableau {
         }
     }
 
-    public static void main(String[] args){
-        int[] list1 = new int[]{1, 5, 8, 10, 11, 5, 8, 3 };
-        TriTableau tab1 = new TriTableau(list1);
-        System.out.println("Tab1 min value is: "+tab1.getMinVal());
-        System.out.println("Tab2 max value is: "+tab1.getMaxVal());
-        tab1.compress();
-        System.out.println(Arrays.toString(tab1.getCompressedTab()));
-        tab1.sorted();
-        System.out.println(Arrays.toString(tab1.getSortedTab()));
-
-        int[] list2 = new int[]{6, 15, 18, 11, 11, 8, 12, 13, 25, 44, 32, 21 };
-        TriTableau tab2 = new TriTableau(list2);
-        System.out.println("Tab1 min value is: "+tab2.getMinVal());
-        System.out.println("Tab2 max value is: "+tab2.getMaxVal());
-        tab2.compress();
-        System.out.println(Arrays.toString(tab2.getCompressedTab()));
-        tab2.sorted();
-        System.out.println(Arrays.toString(tab2.getSortedTab()));
-    }
+//    public static void main(String[] args){
+//
+//    }
 }
